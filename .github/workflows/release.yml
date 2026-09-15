@@ -45,5 +45,3 @@ jobs:
         run: node scripts/release.mjs publish
         env:
           GH_TOKEN: ${{ github.token }}
-          # Optional only for first publication; subsequent runs use npm OIDC.
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -58,18 +58,21 @@ An older delayed revision gets a `revision-<sha>` npm tag, so it cannot move
 `latest` backward. npm publishing selects the tag directly and needs no separate
 token-authorized `npm dist-tag` operation.
 
-### One-time npm setup
+### npm authentication
 
-1. Ensure the publishing account can create public packages in the `sid-ai` npm organization.
-2. Add a narrowly scoped, short-lived granular npm token as the repository/environment
-   secret `NPM_TOKEN`, with creation/publish rights and any required 2FA bypass.
-   Rerun the initial Release workflow to publish the fully tested `0.1.0` package.
-3. In the npm package settings, configure a GitHub trusted publisher: organization
-   `sidhq`, repository `sid-typescript`, workflow `release.yml`, environment `npm`.
-   Allow direct `npm publish`. Avoid required environment approvals if releases
-   should remain automatic.
-4. Remove the bootstrap secret and revoke the token. Subsequent runs authenticate
-   with GitHub OIDC and publish with provenance.
+Releases use GitHub OIDC trusted publishing without an npm token. The package's
+trusted publisher configuration must match these values:
+
+- Provider: GitHub Actions
+- Organization: `sidhq`
+- Repository: `sid-typescript`
+- Workflow: `release.yml`
+- Environment: `npm`
+- Allowed action: direct `npm publish`
+
+The initial package publication has already been completed. After confirming a
+successful OIDC release, remove the bootstrap `NPM_TOKEN` secret and revoke its
+npm token. Future releases do not need that secret.
 
 See [npm trusted publishing](https://docs.npmjs.com/trusted-publishers/) and
 [GitHub concurrency](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency).
