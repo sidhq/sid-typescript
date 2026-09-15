@@ -1,0 +1,49 @@
+name: Release
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: npm-release
+  queue: max
+  cancel-in-progress: false
+jobs:
+  validate:
+    uses: ./.github/workflows/ci.yml
+  publish:
+    needs: validate
+    runs-on: ubuntu-latest
+    environment: npm
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org
+      - run: npm install --global npm@11.11.0
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with:
+          name: sdk-build
+          path: dist
+      - name: Configure release tag identity
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Choose version and record source
+        run: node scripts/release.mjs prepare
+      - name: Test the exact release tarball
+        run: npm run test:package
+      - name: Publish and finalize release
+        run: node scripts/release.mjs publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # Optional only for first publication; subsequent runs use npm OIDC.
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

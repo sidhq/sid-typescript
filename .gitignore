@@ -1,0 +1,11 @@
+/sid-python/
+/node_modules/
+/dist/
+/target/
+/coverage/
+/.artifacts/
+*.tgz
+.env
+.env.*
+!.env.example
+.DS_Store

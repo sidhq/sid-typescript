@@ -1,0 +1,2403 @@
+{
+  "referenceRevision": "c25f9299a90d17735473ca401ae45fa4b41e25d8",
+  "snippets": [
+    {
+      "name": "controlled phrase versus scattered terms",
+      "query": "contingent fee agreement",
+      "content": "contingent filler filler fee filler filler agreement pad pad pad contingent fee agreement tail tail tail",
+      "options": {
+        "windowSize": 6,
+        "stride": 2,
+        "language": "english"
+      },
+      "span": [
+        57,
+        94
+      ]
+    },
+    {
+      "name": "legal contingent fee calculation",
+      "query": "expenses deducted before or after contingent fee calculated",
+      "content": "Background procedural facts occupy this opening passage and do not discuss the disputed terms. Additional unrelated history appears here. Further, the hearing judge determined that Mr. Sanderson violated the provision through his failure to provide Ms. Ozel with adequate information regarding the expenses associated with the representation, whether such expenses would be deducted before or after the contingent fee is calculated, and by failing to document the agreement.",
+      "options": {
+        "windowSize": 24,
+        "stride": 5,
+        "language": "english"
+      },
+      "span": [
+        318,
+        473
+      ]
+    },
+    {
+      "name": "legal fee agreement recommendation",
+      "query": "fee agreement contingent recommendation reasonable settlement offer",
+      "content": "The record begins with unrelated scheduling and jurisdictional matters. We agree with the Panel's conclusion that the fee under the Fee Agreement was not contingent on the outcome of the case, but rather, it was contingent on the Attorney's recommendation of a settlement offer which he deemed reasonable. The remaining section addresses sanctions.",
+      "options": {
+        "windowSize": 25,
+        "stride": 5,
+        "language": "english"
+      },
+      "span": [
+        132,
+        283
+      ]
+    },
+    {
+      "name": "danish",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "danish"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "dutch",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "dutch"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "english",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "finnish",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "finnish"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "french",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "french"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "german",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "german"
+      },
+      "span": [
+        0,
+        16
+      ]
+    },
+    {
+      "name": "generic",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "generic"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "hungarian",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "hungarian"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "italian",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "italian"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "norwegian",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "norwegian"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "portuguese",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "portuguese"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "russian",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "russian"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "spanish",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "spanish"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "swedish",
+      "query": "alpha und beta",
+      "content": "alpha beta und x x alpha und beta x x x x",
+      "options": {
+        "windowSize": 4,
+        "stride": 1,
+        "language": "swedish"
+      },
+      "span": [
+        17,
+        33
+      ]
+    },
+    {
+      "name": "unicode-0",
+      "query": "target",
+      "content": "😀 zero one café target three four",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        7,
+        22
+      ]
+    },
+    {
+      "name": "unicode-1",
+      "query": "target",
+      "content": "é zero one target three four",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        3,
+        18
+      ]
+    },
+    {
+      "name": "unicode-2",
+      "query": "target",
+      "content": "漢字 zero one target three four",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        3,
+        18
+      ]
+    },
+    {
+      "name": "unicode-3",
+      "query": "target",
+      "content": "ภาษาไทย zero one target three four",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        8,
+        23
+      ]
+    },
+    {
+      "name": "unicode-4",
+      "query": "target",
+      "content": "日本語 中文 한국어 target more words here",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        5,
+        17
+      ]
+    },
+    {
+      "name": "zero-score-",
+      "query": "",
+      "content": "one two three four five six seven eight",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        0,
+        13
+      ]
+    },
+    {
+      "name": "zero-score-the and",
+      "query": "the and",
+      "content": "one two three four five six seven eight",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        0,
+        13
+      ]
+    },
+    {
+      "name": "zero-score-missing",
+      "query": "missing",
+      "content": "one two three four five six seven eight",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        0,
+        13
+      ]
+    },
+    {
+      "name": "final-window",
+      "query": "last",
+      "content": "zero one two three four five last",
+      "options": {
+        "windowSize": 3,
+        "stride": 20,
+        "language": "english"
+      },
+      "span": [
+        19,
+        33
+      ]
+    },
+    {
+      "name": "short",
+      "query": "query",
+      "content": "one two",
+      "options": {
+        "windowSize": 50,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        0,
+        7
+      ]
+    },
+    {
+      "name": "punctuation",
+      "query": "query",
+      "content": "!!! ...",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        0,
+        7
+      ]
+    },
+    {
+      "name": "empty-helper",
+      "query": "query",
+      "content": "",
+      "options": {
+        "windowSize": 3,
+        "stride": 1,
+        "language": "english"
+      },
+      "span": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "random-0",
+      "query": "alpha target",
+      "content": "target alpha alpha target 漢字 βeta βeta βeta target alpha target target the alpha the 😀 alpha alpha alpha βeta βeta the the alpha the βeta target target target the 😀 βeta 😀 the 漢字 é é alpha é é βeta target 😀 漢字 漢字 βeta βeta é 漢字 alpha alpha 😀 alpha 漢字 é 漢字 the 漢字 é alpha target 😀 the alpha 😀 alpha the 漢字 é target the é 漢字 the βeta target alpha alpha target βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        44,
+        104
+      ]
+    },
+    {
+      "name": "random-1",
+      "query": "alpha target",
+      "content": "é 漢字 alpha é βeta é alpha 😀 漢字 😀 target é 漢字 βeta 漢字 漢字 βeta target 漢字 target target target alpha the target βeta the target βeta βeta 😀 😀 漢字 target target the βeta target 漢字 é é é alpha βeta é alpha é 漢字 😀 漢字 alpha βeta the target 漢字 βeta target 😀 😀 target 😀 βeta 漢字 βeta βeta target the the 漢字 target the 😀 the 😀 漢字 βeta βeta the 😀 alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        73,
+        133
+      ]
+    },
+    {
+      "name": "random-2",
+      "query": "alpha target",
+      "content": "é alpha é alpha βeta target βeta é target 😀 the alpha 😀 😀 the 😀 the 漢字 the é alpha target target alpha target the é 漢字 é target 漢字 alpha 漢字 😀 βeta 😀 alpha target target 漢字 the é βeta the alpha é target 漢字 é target the the βeta βeta 漢字 é βeta the é the alpha the 漢字 😀 alpha alpha 漢字 é é 漢字 βeta alpha βeta the alpha alpha target 😀 é alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        65,
+        113
+      ]
+    },
+    {
+      "name": "random-3",
+      "query": "alpha target",
+      "content": "é the é βeta βeta target 😀 the βeta 漢字 the é the 😀 βeta the é target target βeta target 漢字 😀 target target 漢字 😀 the 😀 alpha βeta βeta alpha 漢字 alpha the the βeta the βeta alpha alpha target target alpha βeta alpha alpha é 漢字 alpha the βeta 漢字 target 😀 βeta the βeta target the the 😀 βeta é 😀 é 😀 βeta alpha alpha target 😀 漢字 😀 😀 😀 é target alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        153,
+        211
+      ]
+    },
+    {
+      "name": "random-4",
+      "query": "alpha target",
+      "content": "target target target alpha alpha 😀 target 漢字 é é alpha βeta βeta βeta the 😀 βeta 😀 βeta 漢字 😀 βeta é alpha 😀 é é é the alpha alpha target the é alpha alpha é é βeta βeta 😀 😀 😀 βeta é 😀 alpha βeta 😀 alpha 😀 漢字 é é 😀 漢字 😀 target target é the target target 😀 βeta βeta 漢字 βeta alpha the target the alpha target 漢字 alpha alpha the 😀 the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        281,
+        334
+      ]
+    },
+    {
+      "name": "random-5",
+      "query": "alpha target",
+      "content": "é the βeta alpha the alpha é βeta alpha the alpha target é βeta 😀 alpha the βeta the the alpha the alpha 😀 target the the the 漢字 漢字 βeta target target 漢字 βeta 漢字 😀 βeta target target 漢字 😀 漢字 é alpha alpha 😀 the the alpha alpha the βeta the 漢字 βeta 漢字 alpha βeta 漢字 漢字 βeta 😀 é the target 漢字 the é target the alpha target é the 漢字 target alpha βeta 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        42,
+        91
+      ]
+    },
+    {
+      "name": "random-6",
+      "query": "alpha target",
+      "content": "alpha alpha target the βeta 漢字 漢字 the βeta target 漢字 βeta target target é 漢字 the 😀 漢字 é alpha alpha target 😀 é 漢字 alpha alpha 漢字 é βeta target 漢字 βeta target 😀 the target 😀 the alpha alpha alpha target βeta the alpha é 漢字 the the βeta 😀 βeta alpha 漢字 漢字 é é alpha 漢字 βeta target βeta target alpha 漢字 é the é 😀 the target βeta βeta é βeta é é βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        168,
+        223
+      ]
+    },
+    {
+      "name": "random-7",
+      "query": "alpha target",
+      "content": "😀 alpha βeta target 漢字 é 😀 é target é target é βeta 漢字 βeta é target alpha 😀 é alpha é 😀 βeta βeta é 😀 漢字 漢字 é é é βeta βeta alpha target βeta 😀 漢字 漢字 é alpha é 漢字 漢字 target the 😀 target é the 漢字 alpha alpha 漢字 βeta the 漢字 alpha alpha the 😀 漢字 target é 漢字 😀 the the alpha 😀 the βeta 漢字 alpha target 😀 alpha the é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        277,
+        321
+      ]
+    },
+    {
+      "name": "random-8",
+      "query": "alpha target",
+      "content": "the target target target target target βeta 漢字 😀 alpha target 漢字 the 漢字 target é alpha target 漢字 the 漢字 target 😀 漢字 😀 target 漢字 the βeta βeta 😀 target 😀 target target βeta the the 漢字 😀 the é alpha 漢字 漢字 βeta 😀 é the the target 漢字 😀 😀 😀 target βeta the 😀 é é target βeta target alpha 漢字 the target target the 漢字 alpha é é βeta target 漢字 βeta é βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        47,
+        87
+      ]
+    },
+    {
+      "name": "random-9",
+      "query": "alpha target",
+      "content": "βeta alpha alpha βeta 😀 the é é alpha 😀 😀 target the βeta target target 😀 😀 😀 βeta βeta target target alpha é é é alpha é 😀 βeta βeta é target the 😀 alpha the βeta é alpha 😀 βeta é 😀 target the the the 漢字 é 😀 the é target the 😀 é the 😀 βeta target é 😀 😀 漢字 é βeta é target 漢字 é é the 😀 target βeta 漢字 😀 alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        43
+      ]
+    },
+    {
+      "name": "random-10",
+      "query": "alpha target",
+      "content": "target 漢字 βeta 漢字 漢字 漢字 the alpha βeta βeta βeta 😀 target βeta target βeta alpha 😀 😀 漢字 the 😀 😀 alpha βeta é 😀 😀 é the target alpha é é the 😀 😀 alpha 漢字 漢字 é 😀 é é 😀 the target target the é the βeta 😀 βeta 漢字 😀 😀 alpha 😀 漢字 target target é 😀 target βeta é 😀 βeta the the alpha 😀 the the target alpha alpha target 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        273,
+        324
+      ]
+    },
+    {
+      "name": "random-11",
+      "query": "alpha target",
+      "content": "βeta é 😀 βeta alpha 漢字 😀 漢字 βeta 😀 漢字 漢字 é 😀 漢字 é é 😀 漢字 é alpha 😀 alpha target the alpha 漢字 βeta target alpha é target alpha é alpha βeta βeta é alpha the βeta βeta βeta 😀 target alpha the βeta 😀 target 漢字 é 漢字 βeta the the target target alpha é é βeta 漢字 alpha the alpha 漢字 the target 😀 😀 target βeta alpha the target é target βeta alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        287,
+        340
+      ]
+    },
+    {
+      "name": "random-12",
+      "query": "alpha target",
+      "content": "target é 漢字 é target the é alpha é the é alpha 漢字 the 😀 target 漢字 alpha the target 漢字 alpha é 😀 é 😀 alpha 😀 漢字 target é 😀 target βeta 😀 βeta target the target 漢字 the é the é 😀 😀 😀 é target the 漢字 漢字 é βeta é alpha 漢字 😀 βeta é 😀 the the target 😀 漢字 alpha 😀 é 漢字 βeta 😀 βeta 漢字 é 漢字 漢字 漢字 the target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        46,
+        87
+      ]
+    },
+    {
+      "name": "random-13",
+      "query": "alpha target",
+      "content": "漢字 the alpha the βeta alpha βeta target 😀 😀 the é βeta target 😀 target target 😀 😀 é alpha alpha 漢字 βeta 😀 target βeta 漢字 target the 漢字 😀 the the 漢字 😀 target the 漢字 漢字 target 😀 漢字 漢字 漢字 βeta alpha target βeta 漢字 alpha target the é target βeta βeta βeta target 😀 漢字 target the é the the 漢字 alpha é βeta 漢字 βeta 漢字 βeta 漢字 alpha target the βeta 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        185,
+        232
+      ]
+    },
+    {
+      "name": "random-14",
+      "query": "alpha target",
+      "content": "alpha alpha the 漢字 target βeta target é é 😀 alpha é alpha the 漢字 😀 😀 😀 漢字 βeta alpha 漢字 é 😀 alpha é alpha 😀 😀 alpha the target target alpha βeta βeta é the 漢字 alpha βeta alpha the é 😀 the the é the βeta é the 😀 😀 😀 漢字 é the 😀 漢字 the the alpha the target alpha é βeta target βeta 漢字 target alpha βeta βeta βeta the alpha βeta alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        237,
+        289
+      ]
+    },
+    {
+      "name": "random-15",
+      "query": "alpha target",
+      "content": "😀 😀 target the 😀 漢字 alpha βeta 漢字 target 漢字 target é 😀 alpha target βeta 漢字 é é target the target é βeta 😀 alpha the βeta target βeta 漢字 é βeta alpha alpha βeta é 漢字 the target é the 漢字 😀 alpha 😀 target 漢字 target 😀 漢字 the the 😀 😀 alpha the alpha 😀 target 漢字 the 漢字 alpha alpha βeta target é é the the alpha é target é 漢字 the alpha é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        51,
+        93
+      ]
+    },
+    {
+      "name": "random-16",
+      "query": "alpha target",
+      "content": "é βeta 😀 the target 😀 漢字 βeta the 😀 target é 😀 alpha 😀 漢字 😀 漢字 漢字 target alpha é βeta 漢字 😀 target 😀 漢字 target 😀 é é the alpha 😀 alpha 漢字 漢字 漢字 alpha é 😀 é the é alpha target é the 😀 😀 alpha βeta the 漢字 the é 😀 target 😀 é alpha βeta 漢字 the βeta 漢字 😀 target 😀 alpha alpha target the é βeta target βeta 漢字 the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        246,
+        291
+      ]
+    },
+    {
+      "name": "random-17",
+      "query": "alpha target",
+      "content": "alpha the 😀 alpha βeta é alpha 😀 alpha target é βeta 😀 target 漢字 the target 漢字 😀 é 😀 😀 βeta 😀 the βeta 😀 βeta the the target βeta é alpha 漢字 é é é 😀 漢字 é the 漢字 é alpha 漢字 target 漢字 é the the target 😀 é βeta 😀 the 😀 漢字 漢字 the é the 😀 😀 漢字 é βeta target βeta the 😀 βeta é é 😀 alpha 漢字 target 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        49
+      ]
+    },
+    {
+      "name": "random-18",
+      "query": "alpha target",
+      "content": "target é 😀 😀 target é é target βeta 😀 alpha βeta the the 漢字 é alpha é é 😀 alpha the 😀 alpha target βeta 😀 é target βeta alpha 😀 é 漢字 漢字 the target 😀 target alpha é 漢字 é target é the 😀 漢字 target target é 😀 é the alpha the alpha βeta target target 漢字 βeta target alpha 😀 alpha é target target é alpha 😀 βeta target 漢字 alpha alpha 漢字 é alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        80,
+        132
+      ]
+    },
+    {
+      "name": "random-19",
+      "query": "alpha target",
+      "content": "漢字 漢字 漢字 😀 βeta βeta the 😀 the target é βeta βeta βeta alpha the é 😀 the target βeta 😀 the βeta βeta 😀 target 漢字 😀 漢字 target alpha é 😀 漢字 target the βeta alpha 😀 漢字 the 漢字 target 😀 target 漢字 😀 é 漢字 βeta 😀 é 😀 alpha βeta 😀 the 漢字 the 漢字 target 漢字 alpha é target 😀 漢字 alpha the é target é target alpha the target 😀 é 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        270,
+        320
+      ]
+    },
+    {
+      "name": "random-20",
+      "query": "alpha target",
+      "content": "é é βeta the é 漢字 βeta target βeta the 漢字 target é target é target target é βeta target alpha target target alpha 漢字 é 😀 alpha the 漢字 target βeta alpha 漢字 漢字 target 😀 βeta βeta βeta é the 漢字 the the 漢字 é βeta 漢字 é 😀 é 漢字 target é 漢字 é alpha 😀 alpha βeta é βeta é target target target 😀 é é the 漢字 alpha é 😀 alpha 漢字 the alpha 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        87,
+        137
+      ]
+    },
+    {
+      "name": "random-21",
+      "query": "alpha target",
+      "content": "漢字 target target target 漢字 the 😀 é target 漢字 alpha target βeta 😀 alpha the the 漢字 the βeta target alpha target é 😀 target 漢字 target 😀 alpha βeta alpha alpha 漢字 😀 alpha alpha βeta the βeta 😀 😀 漢字 target target target the 😀 the target target βeta 😀 target alpha é 😀 the 😀 漢字 alpha target 漢字 βeta 😀 😀 βeta é 漢字 alpha target 漢字 the target 漢字 alpha 😀 漢字 βeta alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        44,
+        86
+      ]
+    },
+    {
+      "name": "random-22",
+      "query": "alpha target",
+      "content": "é é 😀 alpha target βeta target target the alpha alpha é 漢字 βeta βeta é the βeta alpha é é the βeta the βeta é é βeta 漢字 é βeta é the alpha 漢字 é βeta βeta the 漢字 é βeta alpha target é alpha βeta alpha 漢字 é é βeta the 漢字 alpha βeta 漢字 alpha βeta target 😀 the alpha target alpha 😀 😀 é 漢字 the the alpha 😀 the βeta the alpha target é é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        55
+      ]
+    },
+    {
+      "name": "random-23",
+      "query": "alpha target",
+      "content": "target the 漢字 😀 target alpha alpha 😀 é 😀 😀 target alpha 😀 target 😀 alpha alpha 漢字 the βeta alpha βeta 漢字 the target the the target 漢字 😀 the the 漢字 😀 the the 😀 alpha é target alpha é target target é the target é βeta 😀 😀 βeta 😀 漢字 é 😀 😀 😀 target alpha 漢字 😀 漢字 target 漢字 漢字 βeta target 😀 alpha alpha é alpha alpha 😀 alpha target target 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        283,
+        340
+      ]
+    },
+    {
+      "name": "random-24",
+      "query": "alpha target",
+      "content": "é βeta the alpha the the the 漢字 target alpha 😀 漢字 é target é 😀 é target alpha 漢字 the 漢字 漢字 alpha the the βeta βeta target 😀 βeta é alpha 漢字 é the 漢字 alpha é 漢字 the βeta é 😀 é the é é the the target target the alpha the target é target 漢字 alpha βeta 漢字 target é 漢字 漢字 漢字 alpha βeta é βeta the target 😀 alpha βeta target target alpha alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        188,
+        239
+      ]
+    },
+    {
+      "name": "random-25",
+      "query": "alpha target",
+      "content": "target the βeta 😀 😀 😀 漢字 βeta 漢字 漢字 target 漢字 é the the alpha alpha βeta βeta é the alpha target alpha 漢字 😀 target 😀 😀 the 😀 😀 漢字 βeta é the alpha 漢字 😀 alpha 漢字 target target the 😀 the target 漢字 alpha βeta 😀 the alpha alpha βeta 漢字 βeta é βeta é 漢字 漢字 漢字 alpha alpha 😀 target 😀 βeta βeta 😀 the target βeta the the é target é 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        82,
+        124
+      ]
+    },
+    {
+      "name": "random-26",
+      "query": "alpha target",
+      "content": "alpha 😀 é target alpha 😀 alpha 😀 alpha é 漢字 the 😀 the 😀 target target 😀 漢字 alpha 😀 alpha 漢字 βeta é the 😀 é target 漢字 alpha 😀 é alpha βeta 😀 the 😀 the alpha 😀 é 漢字 target 漢字 βeta 漢字 é βeta alpha the target alpha the the βeta é 漢字 漢字 target é target é βeta βeta alpha βeta 漢字 βeta βeta the βeta é é target alpha βeta é target 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        179,
+        225
+      ]
+    },
+    {
+      "name": "random-27",
+      "query": "alpha target",
+      "content": "😀 é the é the 😀 target the target target the 漢字 é target 漢字 βeta 😀 alpha 😀 😀 target 漢字 é 漢字 the alpha 漢字 the alpha 漢字 😀 😀 alpha alpha 漢字 é 漢字 alpha target é é alpha the the the 😀 😀 the the é target alpha 😀 é the target βeta 漢字 the 😀 the βeta alpha 😀 alpha é é 漢字 target alpha the target βeta alpha βeta target 😀 😀 the the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        147,
+        191
+      ]
+    },
+    {
+      "name": "random-28",
+      "query": "alpha target",
+      "content": "the βeta 漢字 漢字 漢字 😀 😀 é 漢字 target the alpha é target target 漢字 alpha 漢字 alpha the target 😀 漢字 漢字 target é target the é βeta 漢字 alpha the target βeta 漢字 漢字 target target target 😀 βeta the target alpha 漢字 the 😀 target é 漢字 é βeta target target é target target the alpha target target 😀 the 漢字 alpha 漢字 漢字 βeta βeta 漢字 é 😀 βeta βeta βeta βeta alpha 漢字 é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        251,
+        303
+      ]
+    },
+    {
+      "name": "random-29",
+      "query": "alpha target",
+      "content": "é alpha the é the é target the alpha target 漢字 é the βeta the 😀 βeta βeta βeta é target é the é βeta target 😀 alpha 😀 漢字 target target βeta 😀 the 漢字 é target é 😀 βeta the βeta 漢字 é é 😀 é βeta 漢字 target the 😀 😀 é 漢字 é 😀 the the 😀 βeta é βeta é the βeta é 漢字 alpha target 😀 é 漢字 the alpha target é the é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        272,
+        314
+      ]
+    },
+    {
+      "name": "random-30",
+      "query": "alpha target",
+      "content": "alpha 漢字 alpha é βeta 漢字 😀 the βeta é 😀 alpha βeta é 😀 漢字 alpha 😀 alpha 😀 the 漢字 βeta 😀 alpha 漢字 βeta alpha 漢字 alpha é target target 漢字 é βeta βeta alpha 漢字 é 😀 target é βeta é target 😀 😀 the alpha alpha alpha 漢字 βeta é βeta the target the the 😀 alpha é 漢字 βeta 漢字 alpha alpha βeta 😀 target é the 😀 alpha alpha é 😀 the the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        165,
+        211
+      ]
+    },
+    {
+      "name": "random-31",
+      "query": "alpha target",
+      "content": "alpha target the the βeta target βeta 漢字 😀 alpha the 漢字 βeta the 😀 βeta target target alpha the 漢字 alpha the the the é the the alpha 😀 é 😀 alpha target 😀 漢字 漢字 target alpha 漢字 é alpha 漢字 βeta target target target alpha é the target é 漢字 βeta alpha 漢字 the 漢字 é target βeta é é target 😀 target 😀 target βeta é βeta alpha target é 😀 alpha 漢字 βeta alpha é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        113,
+        155
+      ]
+    },
+    {
+      "name": "random-32",
+      "query": "alpha target",
+      "content": "βeta alpha 漢字 漢字 the 😀 é the 😀 漢字 alpha é target βeta 漢字 漢字 é é alpha é target 漢字 漢字 alpha é 漢字 😀 😀 target 😀 😀 漢字 βeta 😀 target 😀 漢字 é the 漢字 é alpha target 😀 alpha 😀 the é βeta the 漢字 漢字 alpha alpha 漢字 target 漢字 漢字 😀 the target 😀 βeta target 😀 漢字 😀 alpha target é 漢字 the 😀 漢字 target é alpha alpha target target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        276,
+        322
+      ]
+    },
+    {
+      "name": "random-33",
+      "query": "alpha target",
+      "content": "😀 漢字 the é target target βeta alpha βeta é the target é 😀 alpha βeta alpha βeta é target 漢字 漢字 😀 the alpha the βeta target 😀 漢字 漢字 😀 é alpha the βeta the 漢字 😀 漢字 target 漢字 βeta alpha alpha target βeta 😀 the 😀 the alpha 漢字 é 漢字 target 😀 βeta the 漢字 target 😀 βeta alpha βeta é alpha 😀 βeta target 😀 alpha é target é 漢字 target 漢字 target alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        182,
+        226
+      ]
+    },
+    {
+      "name": "random-34",
+      "query": "alpha target",
+      "content": "the the 漢字 漢字 é βeta target target target target βeta é 漢字 the βeta alpha βeta é βeta βeta é 😀 alpha 漢字 the the 漢字 😀 é the βeta the alpha alpha 漢字 😀 target target 😀 the 😀 é 😀 é the alpha βeta 漢字 target alpha 😀 😀 target the 漢字 βeta é é the target the βeta é βeta 😀 the é alpha é alpha the βeta 漢字 βeta βeta 漢字 target βeta 漢字 the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        121,
+        167
+      ]
+    },
+    {
+      "name": "random-35",
+      "query": "alpha target",
+      "content": "漢字 é alpha 漢字 βeta target the 漢字 βeta target 漢字 the the alpha the target βeta the the βeta βeta target the target the 漢字 é the alpha é é alpha alpha alpha target é the 漢字 target βeta é the 😀 the target alpha 😀 target the 漢字 target 漢字 😀 βeta é é target 😀 漢字 😀 alpha target alpha βeta 😀 😀 😀 😀 βeta 漢字 the βeta 漢字 é target 漢字 target é 漢字 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        39,
+        86
+      ]
+    },
+    {
+      "name": "random-36",
+      "query": "alpha target",
+      "content": "βeta é 漢字 the the alpha 漢字 βeta 😀 alpha 漢字 😀 βeta βeta alpha alpha 漢字 😀 é the 😀 βeta é βeta é 漢字 the target 漢字 βeta é βeta 😀 the 😀 😀 漢字 😀 alpha alpha 😀 the 😀 βeta βeta the 漢字 alpha alpha 漢字 😀 the é target target 😀 漢字 the alpha é alpha 😀 βeta 漢字 target 漢字 é 😀 漢字 alpha 😀 alpha the the βeta 漢字 the 漢字 alpha 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        197,
+        241
+      ]
+    },
+    {
+      "name": "random-37",
+      "query": "alpha target",
+      "content": "the 😀 é the 漢字 é the target the alpha βeta alpha 😀 漢字 é 漢字 the 漢字 é βeta βeta the the 😀 the alpha alpha alpha βeta target 漢字 é 😀 the 😀 βeta the the βeta 漢字 the 漢字 βeta 😀 the target é 漢字 the 漢字 the é the the 😀 target the 漢字 😀 é alpha 漢字 漢字 target alpha 😀 the 漢字 é target é target target alpha the 😀 漢字 target é é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        77,
+        127
+      ]
+    },
+    {
+      "name": "random-38",
+      "query": "alpha target",
+      "content": "the the βeta target alpha the 😀 βeta the target target the é é 😀 βeta é target βeta alpha the target alpha βeta alpha 😀 漢字 😀 βeta 😀 target βeta 😀 the é the 😀 é é target target alpha target βeta the βeta the 漢字 target 😀 the 😀 漢字 βeta 😀 the 漢字 the 漢字 target é é target target target é target 漢字 the 😀 βeta βeta 漢字 the 漢字 βeta 漢字 é 漢字 target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        67,
+        122
+      ]
+    },
+    {
+      "name": "random-39",
+      "query": "alpha target",
+      "content": "βeta target target 😀 漢字 😀 漢字 the é target 漢字 漢字 alpha the target the 😀 😀 é 漢字 é é βeta 漢字 alpha 漢字 target alpha 漢字 😀 target 漢字 target 😀 βeta βeta é the 漢字 the target 漢字 βeta alpha the target the βeta βeta alpha target the βeta target βeta alpha alpha 😀 漢字 target 😀 alpha target é βeta alpha the βeta 😀 target 😀 😀 target βeta é 漢字 漢字 漢字 target alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        179,
+        238
+      ]
+    },
+    {
+      "name": "random-40",
+      "query": "alpha target",
+      "content": "é alpha target the βeta the target target é alpha βeta 😀 é βeta alpha é 😀 é 😀 βeta target é 漢字 alpha alpha 漢字 the the alpha 漢字 漢字 😀 target the the 😀 βeta é the 😀 漢字 βeta é alpha 漢字 βeta target 😀 target 漢字 target βeta alpha target 漢字 é 漢字 the target é βeta βeta the é target 😀 é 😀 the 漢字 alpha 😀 target alpha βeta βeta 😀 漢字 βeta alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        56
+      ]
+    },
+    {
+      "name": "random-41",
+      "query": "alpha target",
+      "content": "漢字 😀 βeta 😀 é 漢字 漢字 漢字 the target the alpha 漢字 target 漢字 target βeta alpha target alpha 😀 漢字 βeta 😀 target the target é 漢字 target alpha target 漢字 漢字 the βeta βeta βeta 😀 βeta 😀 target the 漢字 😀 target the 😀 é the é target é βeta é βeta target é the é é alpha the 😀 the target 漢字 alpha the alpha alpha é the the βeta the the βeta βeta 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        39,
+        88
+      ]
+    },
+    {
+      "name": "random-42",
+      "query": "alpha target",
+      "content": "é the 😀 alpha target βeta target the 😀 alpha the 😀 é alpha 😀 βeta the 😀 😀 the alpha the 😀 target é 漢字 target alpha 😀 漢字 é alpha target βeta the alpha alpha 😀 漢字 target alpha the alpha alpha 😀 alpha 漢字 😀 βeta é βeta é target target target 😀 漢字 😀 😀 é 😀 😀 alpha target target é the βeta target é 漢字 alpha βeta the 😀 the βeta target βeta é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        49
+      ]
+    },
+    {
+      "name": "random-43",
+      "query": "alpha target",
+      "content": "alpha é alpha 漢字 😀 target target the 😀 the 😀 é βeta βeta 😀 漢字 βeta 漢字 βeta target é alpha alpha é target 😀 the é alpha βeta βeta alpha alpha the alpha 😀 the target target é alpha βeta target alpha 😀 😀 βeta the βeta é é é alpha βeta the 漢字 βeta é target the 漢字 the the é target é 漢字 βeta 漢字 βeta target the βeta 😀 漢字 漢字 alpha the the target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        314,
+        351
+      ]
+    },
+    {
+      "name": "random-44",
+      "query": "alpha target",
+      "content": "βeta target target 😀 the 😀 alpha 漢字 target target 😀 é the 漢字 target 😀 😀 βeta 漢字 😀 βeta é the 😀 βeta é βeta 漢字 é target βeta é 😀 alpha the 😀 😀 the the βeta 😀 βeta 漢字 βeta 漢字 target alpha 😀 é 漢字 alpha the target é βeta alpha 漢字 😀 target the the alpha é alpha βeta é é the target target the βeta 😀 βeta é 漢字 漢字 alpha βeta βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        199,
+        245
+      ]
+    },
+    {
+      "name": "random-45",
+      "query": "alpha target",
+      "content": "target alpha target é 😀 βeta target the target βeta 😀 βeta the 漢字 é 漢字 😀 😀 the target 漢字 漢字 漢字 漢字 the 😀 😀 alpha é target 😀 é é 漢字 βeta 漢字 漢字 😀 alpha the é βeta target βeta alpha 漢字 the the the target 😀 漢字 βeta βeta 漢字 βeta 😀 the é βeta 😀 the target target 漢字 漢字 é é 😀 target target target 😀 😀 βeta target é 漢字 βeta βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        54
+      ]
+    },
+    {
+      "name": "random-46",
+      "query": "alpha target",
+      "content": "target the 😀 βeta the target alpha the alpha é é alpha é target alpha é alpha 😀 βeta é target βeta alpha target βeta alpha βeta the 😀 漢字 alpha the target target the 😀 target 😀 alpha alpha the the 😀 alpha alpha the target 漢字 the 漢字 alpha the é target target 😀 é βeta alpha alpha the βeta βeta βeta the the 漢字 é 漢字 漢字 é 😀 alpha 漢字 😀 😀 the βeta target βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        133,
+        178
+      ]
+    },
+    {
+      "name": "random-47",
+      "query": "alpha target",
+      "content": "漢字 target é é alpha target é target é alpha alpha 😀 😀 😀 the 😀 alpha target alpha target βeta alpha 😀 é 😀 target é 漢字 the é alpha the alpha βeta βeta é target the 😀 漢字 alpha alpha target 漢字 the the target alpha βeta é 漢字 alpha βeta the βeta é é target é 😀 alpha 漢字 βeta the βeta the é é 😀 target the 漢字 😀 é target βeta é target target alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        54,
+        102
+      ]
+    },
+    {
+      "name": "random-48",
+      "query": "alpha target",
+      "content": "the target 漢字 alpha alpha 😀 βeta é alpha 漢字 the é the the 😀 é 漢字 alpha target 漢字 é 😀 😀 βeta 漢字 the 😀 😀 βeta target the target 😀 alpha é the 漢字 é βeta target alpha alpha 漢字 βeta 😀 target é target βeta target 😀 漢字 漢字 alpha alpha alpha 漢字 😀 漢字 é 漢字 alpha βeta alpha βeta 😀 😀 the the the 😀 alpha alpha alpha 漢字 the alpha the the é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        45,
+        82
+      ]
+    },
+    {
+      "name": "random-49",
+      "query": "alpha target",
+      "content": "漢字 é 😀 alpha 漢字 😀 😀 é alpha target the βeta the the βeta target 😀 βeta βeta 漢字 漢字 漢字 😀 βeta alpha βeta 😀 漢字 😀 漢字 😀 é alpha 漢字 漢字 βeta target target 😀 the the βeta 😀 alpha βeta 漢字 alpha 😀 漢字 é the 😀 é é 漢字 😀 漢字 😀 é é é target the βeta 漢字 漢字 the target βeta 😀 漢字 βeta 😀 漢字 漢字 target target target 😀 the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        21,
+        72
+      ]
+    },
+    {
+      "name": "random-50",
+      "query": "alpha target",
+      "content": "é βeta 漢字 😀 漢字 é é 😀 漢字 alpha the βeta the the βeta target é the alpha target 😀 target βeta 😀 é 漢字 é target alpha é é é é 😀 target 😀 βeta target 漢字 βeta 漢字 target βeta target 😀 é 😀 alpha 😀 the 😀 the 😀 the the é target 😀 the alpha é 漢字 target é the the target alpha alpha é βeta target target 漢字 βeta target the alpha the target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        27,
+        81
+      ]
+    },
+    {
+      "name": "random-51",
+      "query": "alpha target",
+      "content": "target target 😀 é 漢字 é 😀 alpha alpha alpha 漢字 βeta the target the the the target the βeta 😀 漢字 😀 😀 é target the target the βeta 漢字 alpha 😀 alpha 漢字 😀 alpha alpha é target βeta 漢字 漢字 漢字 😀 é βeta the 😀 漢字 😀 alpha 😀 target target 😀 漢字 alpha 漢字 alpha é target alpha alpha é 漢字 target alpha target é βeta target βeta the βeta the βeta 漢字 the 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        280,
+        337
+      ]
+    },
+    {
+      "name": "random-52",
+      "query": "alpha target",
+      "content": "😀 βeta é 😀 target βeta βeta target target 😀 😀 alpha target the βeta 😀 the 😀 😀 alpha target βeta βeta 漢字 é target é é alpha the alpha é é the βeta 漢字 漢字 βeta 😀 alpha 漢字 target é 😀 the target 漢字 the 😀 the 😀 the alpha 漢字 漢字 é 😀 the βeta é target target é 漢字 the the alpha target βeta 漢字 alpha βeta 漢字 alpha βeta 漢字 target βeta the 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        24,
+        74
+      ]
+    },
+    {
+      "name": "random-53",
+      "query": "alpha target",
+      "content": "😀 the βeta the 😀 😀 βeta 😀 target the target target βeta the βeta 😀 漢字 βeta βeta 漢字 é 😀 the alpha é 漢字 alpha 😀 βeta βeta é 😀 the the target 😀 😀 target 😀 😀 target é 😀 😀 βeta alpha the alpha é é βeta 漢字 alpha 漢字 βeta the 漢字 βeta é 😀 the target é é 😀 the the alpha the alpha 漢字 é the é 漢字 the é é alpha é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        237,
+        281
+      ]
+    },
+    {
+      "name": "random-54",
+      "query": "alpha target",
+      "content": "target 😀 the βeta 😀 alpha target é target é βeta 漢字 é alpha 😀 漢字 漢字 é é alpha 😀 é alpha é é βeta βeta é target the target 漢字 é target the target 😀 βeta the βeta é βeta é βeta é alpha the 漢字 the 漢字 the the βeta 漢字 target 漢字 漢字 the 漢字 é the target é alpha βeta é é 😀 alpha 漢字 é target βeta target é βeta βeta βeta target 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        50
+      ]
+    },
+    {
+      "name": "random-55",
+      "query": "alpha target",
+      "content": "é βeta é é target 😀 😀 βeta the target 漢字 target 😀 😀 😀 alpha target é é alpha 😀 the target 漢字 target 漢字 😀 😀 漢字 the alpha é é é target alpha target 😀 target target target 漢字 é alpha é the 😀 βeta 😀 é βeta 😀 漢字 漢字 é 漢字 漢字 the the βeta the é 😀 é 漢字 target é alpha alpha alpha target é é 😀 alpha alpha é βeta 😀 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        115,
+        169
+      ]
+    },
+    {
+      "name": "random-56",
+      "query": "alpha target",
+      "content": "alpha 😀 βeta target βeta target 漢字 βeta é 漢字 alpha target 漢字 漢字 alpha 漢字 target target βeta alpha 😀 target 漢字 target target é βeta 😀 target alpha target alpha alpha βeta 😀 alpha βeta the βeta the target 😀 alpha alpha target 漢字 é alpha é 😀 target βeta 😀 alpha βeta 😀 alpha target é alpha alpha 漢字 漢字 漢字 βeta 😀 é é é é βeta target target βeta alpha the the alpha the target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        323,
+        380
+      ]
+    },
+    {
+      "name": "random-57",
+      "query": "alpha target",
+      "content": "βeta 😀 漢字 target βeta target target βeta 😀 the target 😀 é βeta alpha alpha βeta é alpha the target 😀 漢字 😀 漢字 é βeta βeta 漢字 target alpha βeta the the the target the 漢字 é target alpha é é target 漢字 βeta the the the βeta target 😀 漢字 target alpha é é βeta 😀 😀 alpha βeta 😀 target the alpha the alpha 漢字 漢字 βeta 😀 é é the 😀 漢字 the target βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        54,
+        102
+      ]
+    },
+    {
+      "name": "random-58",
+      "query": "alpha target",
+      "content": "é 😀 é alpha alpha the alpha alpha 漢字 βeta alpha alpha é 😀 the 漢字 target target the é 😀 😀 target 😀 alpha target the the the βeta 漢字 alpha 漢字 alpha the βeta é βeta the 漢字 😀 the target é é target target target alpha 漢字 target 😀 target é βeta alpha βeta alpha 😀 alpha 😀 the the alpha 漢字 target target target target βeta alpha alpha target βeta target alpha βeta 😀 漢字 the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        93,
+        140
+      ]
+    },
+    {
+      "name": "random-59",
+      "query": "alpha target",
+      "content": "the é é target 漢字 βeta 漢字 βeta target é é 漢字 target alpha é alpha 漢字 é 😀 漢字 the alpha 漢字 target the target alpha 😀 😀 the 漢字 alpha 😀 é the βeta 漢字 βeta 漢字 é alpha the target target alpha βeta target the alpha alpha é é alpha βeta alpha 😀 漢字 😀 βeta βeta é alpha the é target target target 😀 βeta 漢字 βeta 😀 target 漢字 漢字 é alpha the 漢字 alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        161,
+        221
+      ]
+    },
+    {
+      "name": "random-60",
+      "query": "alpha target",
+      "content": "the target alpha βeta βeta é the alpha 😀 alpha 😀 é 漢字 é é 漢字 漢字 alpha the 😀 alpha 漢字 βeta 漢字 the é 漢字 target the βeta 😀 漢字 the 😀 é é βeta target the é é βeta βeta alpha 😀 alpha βeta the 漢字 target é target alpha 漢字 alpha é target 😀 é target target 漢字 alpha βeta the βeta 😀 😀 alpha βeta target 漢字 alpha alpha βeta é the 😀 target 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        198,
+        244
+      ]
+    },
+    {
+      "name": "random-61",
+      "query": "alpha target",
+      "content": "😀 target alpha the alpha the βeta target é 😀 alpha the the alpha 😀 target βeta βeta 漢字 漢字 é 漢字 é 😀 target é target 漢字 漢字 😀 漢字 βeta alpha βeta βeta é é the alpha βeta alpha βeta 😀 😀 漢字 😀 alpha the 漢字 é βeta 😀 漢字 😀 漢字 é alpha alpha βeta é target 漢字 é target target the alpha βeta é é 漢字 βeta alpha target βeta 漢字 😀 the alpha target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        295,
+        341
+      ]
+    },
+    {
+      "name": "random-62",
+      "query": "alpha target",
+      "content": "漢字 漢字 é βeta alpha 😀 é 😀 the target the βeta alpha 😀 alpha é é βeta alpha alpha alpha é é βeta βeta βeta é 😀 漢字 target target target alpha the the 漢字 é alpha alpha alpha βeta target 😀 é βeta alpha é é é 漢字 alpha alpha 😀 alpha βeta the 😀 é target 😀 😀 alpha 😀 target 😀 βeta 漢字 βeta βeta 漢字 漢字 😀 βeta alpha the the the βeta target 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        106,
+        153
+      ]
+    },
+    {
+      "name": "random-63",
+      "query": "alpha target",
+      "content": "😀 😀 the 😀 alpha alpha 漢字 😀 βeta 😀 βeta target é the βeta target é the é alpha 😀 é target 漢字 😀 the é 😀 漢字 the the 漢字 😀 漢字 βeta alpha 漢字 the βeta alpha é é 漢字 alpha é 😀 the 漢字 é the βeta βeta alpha βeta target βeta 漢字 the é é target alpha é βeta the é é 😀 漢字 é é βeta βeta βeta the 漢字 é target target 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        199,
+        247
+      ]
+    },
+    {
+      "name": "random-64",
+      "query": "alpha target",
+      "content": "the alpha target target 漢字 the the βeta the βeta é é 😀 the 漢字 βeta 😀 alpha alpha alpha βeta the βeta alpha the 😀 alpha 漢字 the βeta é βeta 漢字 target βeta é é é 漢字 alpha alpha βeta the target βeta é alpha é the é 漢字 alpha 漢字 target target 😀 the alpha 漢字 漢字 漢字 βeta βeta target 😀 é target 😀 target 漢字 βeta target the target the é 漢字 βeta target the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        48
+      ]
+    },
+    {
+      "name": "random-65",
+      "query": "alpha target",
+      "content": "é βeta 😀 漢字 target target 漢字 βeta βeta target alpha target the 😀 é é the alpha βeta the 漢字 é the βeta target the alpha 😀 βeta 漢字 target alpha βeta 漢字 漢字 βeta target alpha é target target target target 漢字 😀 alpha 漢字 βeta βeta target alpha 漢字 漢字 é alpha target alpha alpha 😀 😀 target 😀 βeta 😀 😀 😀 漢字 the 😀 alpha é 😀 é é the target é target βeta βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        47,
+        92
+      ]
+    },
+    {
+      "name": "random-66",
+      "query": "alpha target",
+      "content": "😀 alpha é é alpha 漢字 alpha 漢字 漢字 alpha alpha 漢字 βeta 😀 βeta target alpha the alpha 漢字 the the 😀 target alpha 😀 target βeta the 😀 βeta alpha alpha 漢字 βeta βeta 😀 target the target target the 漢字 target 漢字 漢字 βeta alpha alpha 😀 the the é 😀 βeta alpha 漢字 alpha 😀 alpha 漢字 é target target the 😀 βeta alpha alpha βeta βeta target 漢字 alpha 😀 é alpha 漢字 é 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        136,
+        187
+      ]
+    },
+    {
+      "name": "random-67",
+      "query": "alpha target",
+      "content": "😀 😀 target 漢字 alpha target the 😀 βeta 漢字 😀 漢字 βeta 😀 alpha 漢字 😀 😀 漢字 βeta é 漢字 the alpha βeta é target target alpha alpha target 漢字 é the 😀 é the βeta the alpha é 😀 é the 😀 the target é 😀 the βeta 😀 漢字 alpha 😀 é target alpha the the the é the target the βeta alpha é 😀 βeta βeta βeta é βeta βeta alpha 😀 alpha target 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        78,
+        132
+      ]
+    },
+    {
+      "name": "random-68",
+      "query": "alpha target",
+      "content": "βeta é target βeta é the 漢字 漢字 target é alpha alpha 😀 the 😀 the 漢字 é 漢字 the 😀 é alpha é target the the the é 😀 alpha 😀 βeta βeta the the the é alpha alpha the é alpha é 漢字 é the 漢字 😀 漢字 😀 target 😀 the the 😀 alpha βeta 漢字 😀 βeta the the target target 😀 alpha 😀 漢字 target βeta alpha target 😀 漢字 漢字 alpha 漢字 é é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        254,
+        300
+      ]
+    },
+    {
+      "name": "random-69",
+      "query": "alpha target",
+      "content": "漢字 漢字 漢字 é 😀 é target target alpha é βeta βeta 漢字 target 😀 é é 漢字 漢字 target 😀 the target alpha βeta 😀 βeta é 😀 target 😀 é the é 漢字 é alpha the é βeta alpha 漢字 target the 😀 βeta é é the the alpha βeta βeta é βeta é alpha βeta alpha 😀 alpha 漢字 target βeta 漢字 漢字 é 😀 the 😀 target alpha target alpha βeta 漢字 😀 the 😀 βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        271,
+        315
+      ]
+    },
+    {
+      "name": "random-70",
+      "query": "alpha target",
+      "content": "é 😀 the the 漢字 漢字 βeta é 漢字 target é target alpha 漢字 alpha 😀 alpha βeta é the é βeta é βeta target βeta target βeta 漢字 target 😀 the alpha é é é target alpha 😀 βeta target βeta the é alpha βeta 漢字 the é 漢字 target target target 漢字 😀 😀 é 漢字 😀 漢字 βeta 😀 漢字 target the é the 😀 the alpha alpha the target é é 漢字 the target the the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        272,
+        317
+      ]
+    },
+    {
+      "name": "random-71",
+      "query": "alpha target",
+      "content": "漢字 漢字 target alpha 😀 alpha 漢字 漢字 target 漢字 é 漢字 漢字 target target target 漢字 βeta βeta the é βeta alpha é é é é the 😀 target 漢字 target βeta target alpha target 😀 漢字 漢字 😀 😀 😀 target alpha the target the é βeta 漢字 target target βeta target the target é 😀 target 漢字 the 漢字 é βeta é target the βeta 漢字 alpha 😀 βeta target 漢字 target é the é βeta target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        185,
+        235
+      ]
+    },
+    {
+      "name": "random-72",
+      "query": "alpha target",
+      "content": "漢字 target alpha βeta 漢字 βeta target é 漢字 😀 é 漢字 漢字 漢字 the 漢字 😀 é alpha 😀 alpha é target the the the alpha 😀 βeta the alpha é target 😀 the 漢字 😀 alpha é é βeta βeta βeta 漢字 😀 the 😀 βeta 漢字 é target βeta é alpha 😀 漢字 target βeta 漢字 target alpha alpha 😀 漢字 βeta é é βeta the é βeta 😀 é é é alpha βeta the 😀 target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        212,
+        256
+      ]
+    },
+    {
+      "name": "random-73",
+      "query": "alpha target",
+      "content": "😀 😀 😀 😀 😀 alpha alpha the βeta target 漢字 alpha 漢字 é é the βeta alpha target alpha target target βeta βeta target 漢字 漢字 βeta alpha 😀 the the 漢字 βeta alpha é alpha 漢字 漢字 😀 target the the the 漢字 😀 target βeta 漢字 😀 漢字 é βeta βeta é 😀 alpha βeta βeta target βeta βeta target alpha the the βeta alpha 漢字 target target é alpha 😀 target 漢字 é the the alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        41,
+        90
+      ]
+    },
+    {
+      "name": "random-74",
+      "query": "alpha target",
+      "content": "the alpha target alpha target é alpha alpha target alpha 😀 😀 😀 alpha the 漢字 😀 target βeta βeta target target target alpha 漢字 😀 target alpha target the 漢字 the the target βeta 😀 é alpha the target the alpha 漢字 alpha é alpha 😀 βeta the βeta é 漢字 é the βeta 漢字 target 😀 漢字 βeta alpha the 😀 βeta target 😀 漢字 βeta alpha alpha target alpha alpha é the target 😀 βeta alpha é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        59
+      ]
+    },
+    {
+      "name": "random-75",
+      "query": "alpha target",
+      "content": "the alpha target target alpha 漢字 target βeta 😀 漢字 漢字 😀 alpha alpha é βeta é alpha é 漢字 漢字 é target 漢字 😀 target alpha alpha é é alpha alpha é βeta target target βeta 漢字 漢字 😀 the 漢字 target alpha 漢字 é 漢字 βeta alpha 😀 😀 😀 漢字 é 😀 target é 😀 é 😀 target é βeta alpha βeta target target alpha é βeta alpha 😀 the 😀 é the target 😀 βeta the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        48
+      ]
+    },
+    {
+      "name": "random-76",
+      "query": "alpha target",
+      "content": "😀 é 漢字 the alpha é target é target βeta 😀 😀 alpha 😀 😀 alpha alpha 漢字 target 漢字 alpha target é target the é target the target the βeta target é 漢字 the the target target the alpha 😀 target target βeta 😀 漢字 target target target 😀 βeta é é the the alpha alpha target βeta the é 😀 é 😀 é βeta alpha é 😀 漢字 βeta 漢字 漢字 alpha the βeta the target 😀 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        231,
+        279
+      ]
+    },
+    {
+      "name": "random-77",
+      "query": "alpha target",
+      "content": "é βeta alpha 😀 😀 é the 😀 alpha é 😀 😀 漢字 alpha 😀 target target alpha alpha 😀 😀 alpha the the alpha é alpha é the the target 漢字 the the βeta target target 😀 漢字 漢字 é alpha é βeta é 😀 漢字 the é the the 😀 target target 漢字 target 😀 alpha alpha é target βeta alpha 漢字 漢字 é target é 漢字 the the 漢字 target alpha alpha βeta 😀 βeta é target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        49,
+        100
+      ]
+    },
+    {
+      "name": "random-78",
+      "query": "alpha target",
+      "content": "target target 😀 alpha 漢字 the βeta βeta alpha é 😀 βeta 😀 é é βeta target 漢字 alpha é 😀 alpha target é target the alpha é 😀 😀 target the the βeta 😀 alpha the target alpha the 😀 é the 😀 the é βeta target the βeta target é βeta alpha 😀 target the the 漢字 the 😀 😀 the target é βeta 漢字 😀 漢字 漢字 😀 é βeta βeta 😀 the target target the 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        136,
+        182
+      ]
+    },
+    {
+      "name": "random-79",
+      "query": "alpha target",
+      "content": "é target the é 漢字 target target the target βeta βeta βeta the target 漢字 target 漢字 target βeta target target βeta the the target target 漢字 target alpha é 漢字 the 😀 the the target target 😀 target target é the 漢字 é 😀 é alpha the alpha alpha 😀 βeta alpha target alpha βeta 漢字 é é βeta 漢字 target 漢字 βeta é alpha target é 漢字 βeta é the alpha 漢字 é 😀 alpha the é target",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        218,
+        273
+      ]
+    },
+    {
+      "name": "random-80",
+      "query": "alpha target",
+      "content": "target the é βeta target target the 😀 βeta the é é é target 漢字 target target alpha 😀 😀 😀 é target 漢字 the alpha alpha target 漢字 βeta the é é é é 😀 é βeta target target target target 漢字 é the the target the βeta é target βeta 漢字 😀 βeta target alpha βeta βeta target the alpha 😀 alpha 😀 漢字 the 漢字 βeta βeta the é 漢字 alpha 漢字 😀 target βeta alpha βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        103,
+        143
+      ]
+    },
+    {
+      "name": "random-81",
+      "query": "alpha target",
+      "content": "漢字 the alpha é target the é target 漢字 😀 é the the 漢字 alpha é target 漢字 the βeta βeta the alpha é the βeta 😀 the the 😀 alpha 漢字 βeta βeta target 漢字 漢字 漢字 漢字 βeta é the the 😀 the é é target alpha alpha target 漢字 😀 βeta target the the βeta alpha target 漢字 😀 é alpha 😀 漢字 the target 漢字 alpha the é é 漢字 the é the 😀 😀 alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        173,
+        217
+      ]
+    },
+    {
+      "name": "random-82",
+      "query": "alpha target",
+      "content": "漢字 target βeta 漢字 the alpha alpha βeta é the the alpha target alpha βeta target target é βeta é target 😀 é alpha βeta the é target target é 😀 target é alpha target target βeta alpha 😀 target 漢字 alpha alpha alpha alpha βeta é 漢字 the alpha the é βeta 漢字 😀 😀 😀 target 😀 😀 漢字 alpha 😀 target alpha the alpha target target the alpha é target the alpha target é alpha 漢字 the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        306,
+        365
+      ]
+    },
+    {
+      "name": "random-83",
+      "query": "alpha target",
+      "content": "alpha 漢字 é target 漢字 the alpha 漢字 é 😀 😀 😀 é target alpha 😀 βeta the βeta βeta target 😀 é é é the 漢字 target βeta 漢字 target é é target target 漢字 alpha the é the βeta alpha alpha alpha the the 😀 the the alpha 漢字 βeta target target target 漢字 βeta 😀 target é the βeta βeta βeta βeta the é 漢字 βeta alpha βeta target é the é alpha é é the 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        141,
+        190
+      ]
+    },
+    {
+      "name": "random-84",
+      "query": "alpha target",
+      "content": "target the alpha 漢字 target alpha 漢字 alpha βeta target the 😀 漢字 漢字 βeta target target βeta alpha 漢字 the alpha βeta 漢字 😀 😀 漢字 the target 漢字 target the βeta the the 漢字 é 漢字 😀 βeta alpha 漢字 βeta é βeta target target target 😀 漢字 é 漢字 βeta target target 漢字 😀 😀 😀 漢字 é 漢字 😀 the alpha βeta target the alpha é 漢字 é é βeta the βeta 漢字 target target alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        46
+      ]
+    },
+    {
+      "name": "random-85",
+      "query": "alpha target",
+      "content": "target alpha alpha é the target alpha é the the 😀 é the βeta alpha the 漢字 the the 😀 target é βeta 漢字 😀 βeta é the target é 漢字 βeta 😀 the the alpha 😀 漢字 the alpha target βeta é é the target βeta é the βeta 😀 βeta βeta the the target é βeta target target 😀 漢字 alpha βeta é 😀 βeta alpha 漢字 漢字 βeta alpha target βeta the é 漢字 😀 😀 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        139,
+        182
+      ]
+    },
+    {
+      "name": "random-86",
+      "query": "alpha target",
+      "content": "alpha alpha target 漢字 alpha target the target é 漢字 é target 漢字 the the the βeta 😀 target 😀 漢字 the target é alpha the 漢字 😀 βeta the 😀 漢字 é é 漢字 😀 é 😀 the alpha the βeta 😀 βeta βeta alpha the target 漢字 βeta βeta βeta βeta 漢字 the target é alpha target βeta 😀 é 漢字 target alpha 😀 target 😀 😀 βeta the βeta target é 😀 alpha βeta alpha βeta the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        0,
+        50
+      ]
+    },
+    {
+      "name": "random-87",
+      "query": "alpha target",
+      "content": "the βeta βeta target the alpha the βeta alpha βeta 漢字 βeta the 😀 the the target alpha target target target é 漢字 alpha βeta 😀 the 😀 é 😀 βeta βeta é 😀 the βeta é the é é βeta the target the 漢字 βeta target target 漢字 😀 the the alpha βeta 😀 😀 βeta alpha alpha βeta the é the target 😀 é βeta the alpha βeta 😀 the the alpha é the the é alpha alpha",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        54,
+        109
+      ]
+    },
+    {
+      "name": "random-88",
+      "query": "alpha target",
+      "content": "😀 target βeta the the é alpha é target target 😀 the 😀 漢字 é alpha target the 😀 βeta é 😀 é é 😀 漢字 the é target é é target the alpha 😀 βeta 漢字 😀 é βeta é alpha 漢字 the the 😀 漢字 βeta alpha target target é alpha the the alpha the alpha 😀 target βeta target é 漢字 😀 漢字 alpha βeta 😀 target the 漢字 漢字 é the 😀 the 漢字 the 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        182,
+        235
+      ]
+    },
+    {
+      "name": "random-89",
+      "query": "alpha target",
+      "content": "target 😀 é βeta 😀 the é the 😀 βeta 漢字 the the 😀 漢字 漢字 the 漢字 é target 😀 target βeta é é target alpha target βeta 😀 é target βeta alpha βeta the 😀 é 漢字 é the the target target target alpha βeta 😀 target alpha é alpha é βeta 😀 the 😀 alpha alpha 漢字 βeta 漢字 alpha the alpha target 😀 😀 the target the 漢字 target the alpha é é βeta target 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        264,
+        308
+      ]
+    },
+    {
+      "name": "random-90",
+      "query": "alpha target",
+      "content": "😀 alpha βeta é target é the 漢字 βeta alpha é the the the target βeta the βeta target alpha 漢字 βeta target alpha βeta alpha 漢字 é 😀 漢字 target 😀 😀 the βeta the alpha target target alpha alpha the 漢字 target é the the 漢字 漢字 é 漢字 βeta the βeta 😀 😀 the alpha 漢字 βeta 😀 the alpha the alpha the 漢字 漢字 alpha é the 漢字 the é é the 漢字 target 😀 😀",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        145,
+        197
+      ]
+    },
+    {
+      "name": "random-91",
+      "query": "alpha target",
+      "content": "the 😀 é βeta é 漢字 é 😀 target 😀 the é alpha 😀 alpha 漢字 alpha 😀 target é βeta target target βeta é 漢字 😀 漢字 the the alpha target é 漢字 βeta 漢字 alpha 😀 target target é 漢字 alpha the βeta 😀 漢字 漢字 βeta the 漢字 βeta target target βeta 😀 target βeta βeta target βeta é 漢字 βeta βeta βeta é βeta é the 漢字 βeta é alpha alpha alpha target target 😀 the",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        300,
+        348
+      ]
+    },
+    {
+      "name": "random-92",
+      "query": "alpha target",
+      "content": "alpha é é the alpha é 😀 漢字 the 漢字 😀 the é 漢字 😀 βeta é the 漢字 😀 βeta é the βeta alpha the é 😀 😀 the alpha the 漢字 😀 é target é βeta 😀 alpha target the 😀 漢字 target alpha alpha target βeta 😀 the alpha 漢字 漢字 the é 漢字 βeta the 漢字 βeta 漢字 😀 the 漢字 漢字 βeta 😀 😀 βeta 😀 target é 漢字 漢字 é 😀 漢字 😀 βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        147,
+        195
+      ]
+    },
+    {
+      "name": "random-93",
+      "query": "alpha target",
+      "content": "the βeta the target βeta é alpha target 漢字 é βeta the 😀 é 😀 βeta βeta é target βeta 😀 é alpha βeta 😀 😀 βeta é target the the target 漢字 é 😀 漢字 漢字 the é the alpha 😀 alpha target βeta alpha βeta é 漢字 😀 é target alpha 😀 target 漢字 漢字 漢字 漢字 the the é 漢字 漢字 alpha 😀 alpha 漢字 é target the βeta the the target target the βeta é 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        149,
+        194
+      ]
+    },
+    {
+      "name": "random-94",
+      "query": "alpha target",
+      "content": "漢字 漢字 target the 😀 é target 😀 alpha 😀 the 漢字 😀 target βeta é βeta target é 漢字 😀 target the the 😀 é alpha alpha βeta 漢字 βeta 漢字 漢字 target 漢字 target 漢字 the target 😀 漢字 😀 é é 漢字 target the the 😀 😀 βeta βeta é alpha βeta target βeta target 漢字 target target target alpha βeta βeta 😀 alpha alpha alpha 😀 the alpha alpha é 😀 the é alpha alpha 漢字",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        253,
+        308
+      ]
+    },
+    {
+      "name": "random-95",
+      "query": "alpha target",
+      "content": "the βeta alpha target 😀 漢字 βeta βeta target 漢字 😀 target βeta βeta the é βeta alpha alpha target 漢字 é 漢字 é 😀 😀 é the 漢字 the 😀 βeta target the βeta the the 😀 target target target the 😀 the target target the 漢字 漢字 😀 the βeta é alpha 😀 漢字 漢字 😀 漢字 βeta 漢字 alpha alpha the é é é βeta 漢字 漢字 😀 the alpha target 😀 é 😀 漢字 alpha é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        47,
+        98
+      ]
+    },
+    {
+      "name": "random-96",
+      "query": "alpha target",
+      "content": "😀 é 漢字 the βeta é alpha the 漢字 βeta 😀 the 😀 😀 βeta βeta target target target 😀 é 😀 βeta 漢字 alpha 😀 target βeta the é é the é target target 漢字 漢字 target target the é 漢字 😀 βeta é alpha βeta βeta 漢字 alpha target 😀 the 😀 漢字 target the 😀 βeta 漢字 alpha βeta alpha the alpha βeta alpha 漢字 漢字 βeta target 😀 target alpha βeta alpha βeta alpha 😀 βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        201,
+        238
+      ]
+    },
+    {
+      "name": "random-97",
+      "query": "alpha target",
+      "content": "漢字 😀 漢字 é é 😀 漢字 😀 target é alpha 漢字 alpha é é βeta alpha 漢字 é 😀 alpha the 😀 βeta βeta é 漢字 é 😀 é alpha alpha é target βeta 😀 é 😀 βeta target alpha βeta 😀 target é alpha the target βeta 😀 😀 target 漢字 漢字 βeta target target alpha target the the alpha 漢字 😀 target 漢字 βeta 漢字 alpha é target βeta alpha βeta target 😀 漢字 alpha βeta é",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        220,
+        272
+      ]
+    },
+    {
+      "name": "random-98",
+      "query": "alpha target",
+      "content": "漢字 the alpha 😀 é βeta alpha alpha the é target 😀 target the βeta 漢字 é alpha βeta βeta 😀 alpha target the 漢字 é target alpha alpha 漢字 target βeta target the é alpha βeta 😀 βeta 漢字 the é target é 漢字 é 😀 target βeta alpha target 😀 漢字 target βeta 漢字 alpha 😀 target 😀 the 漢字 the target 😀 βeta the βeta the 漢字 漢字 target 😀 漢字 é é the é the βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        84,
+        132
+      ]
+    },
+    {
+      "name": "random-99",
+      "query": "alpha target",
+      "content": "alpha the βeta 😀 漢字 é 漢字 the 漢字 😀 alpha é target the 😀 target βeta alpha the é 漢字 é the βeta 漢字 target alpha target the é 😀 βeta the target 😀 é the βeta the 漢字 漢字 😀 target 漢字 alpha alpha the target alpha alpha é βeta βeta é alpha βeta alpha 😀 βeta alpha alpha the target é 😀 target 😀 the the target the 漢字 alpha 漢字 βeta the target alpha alpha βeta",
+      "options": {
+        "windowSize": 11,
+        "stride": 3,
+        "language": "english"
+      },
+      "span": [
+        251,
+        300
+      ]
+    }
+  ],
+  "views": [
+    {
+      "name": "whole-unicode",
+      "document": {
+        "title": "A \"quote\" <title> &",
+        "tags": [
+          "a",
+          "b"
+        ],
+        "count": 3,
+        "zero": 0,
+        "no": false,
+        "yes": true,
+        "empty": [],
+        "content": "😀 alpha é bravo | charlie\ndelta"
+      },
+      "options": {
+        "snippetField": "content"
+      },
+      "seen": [],
+      "apply": false,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID\" doc_length=32 title=\"A \"quote\" &lt;title&gt; &amp;\" tags=\"a, b\" count=3 yes=True>\n😀 alpha é bravo | charlie\ndelta\n</doc>",
+      "markdown": "| id | doc_length | title | tags | count | zero | no | yes | empty | content |\n|----|------------|-------|------|-------|------|----|-----|-------|---------|\n| DOCID | 32 | A \"quote\" <title> & | a, b | 3 | 0 | False | True |  | 😀 alpha é bravo \\| charlie delta |",
+      "displaySpans": [
+        [
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "partial-unicode",
+      "document": {
+        "title": "A \"quote\" <title> &",
+        "tags": [
+          "a",
+          "b"
+        ],
+        "count": 3,
+        "zero": 0,
+        "no": false,
+        "yes": true,
+        "empty": [],
+        "content": "😀 alpha é bravo | charlie\ndelta"
+      },
+      "options": {
+        "snippetField": "content",
+        "snippetDisplaySpan": [
+          3,
+          11
+        ]
+      },
+      "seen": [],
+      "apply": false,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID#3:11\" doc_length=32 title=\"A \"quote\" &lt;title&gt; &amp;\" tags=\"a, b\" count=3 yes=True>\n... lpha é  ...\n</doc>",
+      "markdown": "| id | doc_length | title | tags | count | zero | no | yes | empty | content |\n|----|------------|-------|------|-------|------|----|-----|-------|---------|\n| DOCID#3:11 | 32 | A \"quote\" <title> & | a, b | 3 | 0 | False | True |  | ... lpha é  ... |",
+      "displaySpans": [
+        [
+          3,
+          11
+        ]
+      ]
+    },
+    {
+      "name": "clamped",
+      "document": {
+        "title": "A \"quote\" <title> &",
+        "tags": [
+          "a",
+          "b"
+        ],
+        "count": 3,
+        "zero": 0,
+        "no": false,
+        "yes": true,
+        "empty": [],
+        "content": "😀 alpha é bravo | charlie\ndelta"
+      },
+      "options": {
+        "snippetField": "content",
+        "snippetDisplaySpan": [
+          -5,
+          999
+        ]
+      },
+      "seen": [],
+      "apply": false,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID\" doc_length=32 title=\"A \"quote\" &lt;title&gt; &amp;\" tags=\"a, b\" count=3 yes=True>\n😀 alpha é bravo | charlie\ndelta\n</doc>",
+      "markdown": "| id | doc_length | title | tags | count | zero | no | yes | empty | content |\n|----|------------|-------|------|-------|------|----|-----|-------|---------|\n| DOCID | 32 | A \"quote\" <title> & | a, b | 3 | 0 | False | True |  | 😀 alpha é bravo \\| charlie delta |",
+      "displaySpans": [
+        [
+          0,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "metadata-only",
+      "document": {
+        "title": "A \"quote\" <title> &",
+        "tags": [
+          "a",
+          "b"
+        ],
+        "count": 3,
+        "zero": 0,
+        "no": false,
+        "yes": true,
+        "empty": [],
+        "content": "😀 alpha é bravo | charlie\ndelta"
+      },
+      "options": {
+        "displayFields": [
+          "title",
+          "count",
+          "zero",
+          "no",
+          "yes",
+          "empty"
+        ]
+      },
+      "seen": [],
+      "apply": false,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID\" title=\"A \"quote\" &lt;title&gt; &amp;\" count=3 yes=True></doc>",
+      "markdown": "| id | title | count | zero | no | yes | empty |\n|----|-------|-------|------|----|-----|-------|\n| DOCID | A \"quote\" <title> & | 3 | 0 | False | True |  |",
+      "displaySpans": []
+    },
+    {
+      "name": "pure-repeat",
+      "document": {
+        "title": "A \"quote\" <title> &",
+        "tags": [
+          "a",
+          "b"
+        ],
+        "count": 3,
+        "zero": 0,
+        "no": false,
+        "yes": true,
+        "empty": [],
+        "content": "😀 alpha é bravo | charlie\ndelta"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha"
+      },
+      "seen": [
+        [
+          0,
+          32
+        ]
+      ],
+      "apply": true,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID\" doc_length=32 title=\"A \"quote\" &lt;title&gt; &amp;\" tags=\"a, b\" count=3 yes=True>\n[seen: \"#0:32\"]\n</doc>",
+      "markdown": "| id | doc_length | title | tags | count | zero | no | yes | empty | content |\n|----|------------|-------|------|-------|------|----|-----|-------|---------|\n| DOCID | 32 | A \"quote\" <title> & | a, b | 3 | 0 | False | True |  | [seen: \"#0:32\"] |",
+      "displaySpans": []
+    },
+    {
+      "name": "seen-mask",
+      "document": {
+        "title": "T",
+        "content": "w0000 w0001 w0002 w0003 w0004 w0005 w0006 w0007 w0008 w0009 w0010 w0011 w0012 w0013 w0014 w0015 w0016 w0017 w0018 w0019 w0020 w0021 w0022 w0023 w0024 w0025 w0026 w0027 w0028 w0029 w0030 w0031 w0032 w0033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "w0090",
+        "snippetSize": 200
+      },
+      "seen": [
+        [
+          0,
+          150
+        ]
+      ],
+      "apply": true,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID\" doc_length=599 title=\"T\">\n[seen: \"#0:150\"]w0025 w0026 w0027 w0028 w0029 w0030 w0031 w0032 w0033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099\n</doc>",
+      "markdown": "| id | doc_length | title | content |\n|----|------------|-------|---------|\n| DOCID | 599 | T | [seen: \"#0:150\"]w0025 w0026 w0027 w0028 w0029 w0030 w0031 w0032 w0033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099 |",
+      "displaySpans": [
+        [
+          150,
+          599
+        ]
+      ]
+    },
+    {
+      "name": "short-seen-reshown",
+      "document": {
+        "title": "T",
+        "content": "w0000 w0001 w0002 w0003 w0004 w0005 w0006 w0007 w0008 w0009 w0010 w0011 w0012 w0013 w0014 w0015 w0016 w0017 w0018 w0019 w0020 w0021 w0022 w0023 w0024 w0025 w0026 w0027 w0028 w0029 w0030 w0031 w0032 w0033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "w0090",
+        "snippetSize": 200
+      },
+      "seen": [
+        [
+          0,
+          50
+        ]
+      ],
+      "apply": true,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID\" doc_length=599 title=\"T\">\nw0000 w0001 w0002 w0003 w0004 w0005 w0006 w0007 w0008 w0009 w0010 w0011 w0012 w0013 w0014 w0015 w0016 w0017 w0018 w0019 w0020 w0021 w0022 w0023 w0024 w0025 w0026 w0027 w0028 w0029 w0030 w0031 w0032 w0033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099\n</doc>",
+      "markdown": "| id | doc_length | title | content |\n|----|------------|-------|---------|\n| DOCID | 599 | T | w0000 w0001 w0002 w0003 w0004 w0005 w0006 w0007 w0008 w0009 w0010 w0011 w0012 w0013 w0014 w0015 w0016 w0017 w0018 w0019 w0020 w0021 w0022 w0023 w0024 w0025 w0026 w0027 w0028 w0029 w0030 w0031 w0032 w0033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099 |",
+      "displaySpans": [
+        [
+          0,
+          599
+        ]
+      ]
+    },
+    {
+      "name": "disjoint-seen",
+      "document": {
+        "title": "T",
+        "content": "w0000 w0001 w0002 w0003 w0004 w0005 w0006 w0007 w0008 w0009 w0010 w0011 w0012 w0013 w0014 w0015 w0016 w0017 w0018 w0019 w0020 w0021 w0022 w0023 w0024 w0025 w0026 w0027 w0028 w0029 w0030 w0031 w0032 w0033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "w0090",
+        "snippetSize": 200,
+        "minSeenOverlap": 10
+      },
+      "seen": [
+        [
+          0,
+          50
+        ],
+        [
+          100,
+          200
+        ]
+      ],
+      "apply": true,
+      "cacheOptions": {},
+      "xml": "<doc id=\"DOCID\" doc_length=599 title=\"T\">\n[seen: \"#0:50\"]008 w0009 w0010 w0011 w0012 w0013 w0014 w0015 w001[seen: \"#100:200\"]033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099\n</doc>",
+      "markdown": "| id | doc_length | title | content |\n|----|------------|-------|---------|\n| DOCID | 599 | T | [seen: \"#0:50\"]008 w0009 w0010 w0011 w0012 w0013 w0014 w0015 w001[seen: \"#100:200\"]033 w0034 w0035 w0036 w0037 w0038 w0039 w0040 w0041 w0042 w0043 w0044 w0045 w0046 w0047 w0048 w0049 w0050 w0051 w0052 w0053 w0054 w0055 w0056 w0057 w0058 w0059 w0060 w0061 w0062 w0063 w0064 w0065 w0066 w0067 w0068 w0069 w0070 w0071 w0072 w0073 w0074 w0075 w0076 w0077 w0078 w0079 w0080 w0081 w0082 w0083 w0084 w0085 w0086 w0087 w0088 w0089 w0090 w0091 w0092 w0093 w0094 w0095 w0096 w0097 w0098 w0099 |",
+      "displaySpans": [
+        [
+          50,
+          100
+        ],
+        [
+          200,
+          599
+        ]
+      ]
+    },
+    {
+      "name": "view-danish",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "danish"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-dutch",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "dutch"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-english",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "english"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-finnish",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "finnish"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-french",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "french"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-german",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "german"
+      },
+      "xml": "<doc id=\"DOCID#0:16\" doc_length=41>\nalpha beta und x ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#0:16 | 41 | alpha beta und x ... |",
+      "displaySpans": [
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    {
+      "name": "view-generic",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "generic"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-hungarian",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "hungarian"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-italian",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "italian"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-norwegian",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "norwegian"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-portuguese",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "portuguese"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-russian",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "russian"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-spanish",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "spanish"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "view-swedish",
+      "document": {
+        "content": "alpha beta und x x alpha und beta x x x x"
+      },
+      "options": {
+        "snippetField": "content",
+        "query": "alpha und beta",
+        "snippetSize": 4
+      },
+      "seen": [],
+      "apply": true,
+      "cacheOptions": {
+        "language": "swedish"
+      },
+      "xml": "<doc id=\"DOCID#17:33\" doc_length=41>\n... x alpha und beta ...\n</doc>",
+      "markdown": "| id | doc_length | content |\n|----|------------|---------|\n| DOCID#17:33 | 41 | ... x alpha und beta ... |",
+      "displaySpans": [
+        [
+          17,
+          33
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@sidhq/sid-sdk",
+  "version": "0.1.0",
+  "description": "Stable document IDs, relevant snippets, and seen-text tracking for AI agents",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/cjs/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["dist", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md"],
+  "engines": { "node": ">=22" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/sidhq/sid-typescript.git" },
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "test:package": "node scripts/smoke-package.mjs",
+    "check:rust": "cargo fmt --check && cargo clippy --locked --all-targets -- -D warnings && cargo test --locked",
+    "check": "npm run typecheck && npm run check:rust && npm run build && npm test && npm run test:package"
+  },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "~5.9.3" }
+}
