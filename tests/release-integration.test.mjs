@@ -14,6 +14,8 @@ test('release CLI reserves tags, recovers failed publication, and finalizes part
     writeFileSync(registry, '{}'); writeFileSync(releases, '[]');
     const env = { ...process.env, GIT_CONFIG_GLOBAL: '/dev/null', GIT_CONFIG_NOSYSTEM: '1', PATH: `${bin}:${process.env.PATH}`, MOCK_REGISTRY: registry, MOCK_LOG: log, MOCK_RELEASES: releases, GITHUB_REF: 'refs/heads/main', GITHUB_EVENT_NAME: 'push' };
     delete env.GITHUB_SHA;
+    // Simulated releases must never write fake publication notices to the real CI summary.
+    delete env.GITHUB_STEP_SUMMARY;
     const git = (...args) => execFileSync('git', args, { cwd: repo, env, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
     git('init', '--bare', remote); git('init', '-b', 'main');
     git('config', 'user.name', 'Release Test'); git('config', 'user.email', 'release@example.invalid');
