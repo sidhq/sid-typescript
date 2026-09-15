@@ -1,4 +1,4 @@
-export const PACKAGE = "@sidhq/sid-sdk";
+export const PACKAGE = "@sid-ai/sid-sdk";
 export function stableVersions(metadata, tags) {
   return [...new Set([...Object.keys(metadata.versions ?? {}), ...tags.map(tag => tag.replace(/^v/, ""))])]
     .filter(value => /^\d+\.\d+\.\d+$/.test(value))

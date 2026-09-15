@@ -20,7 +20,7 @@ test('release CLI reserves tags, recovers failed publication, and finalizes part
     git('init', '--bare', remote); git('init', '-b', 'main');
     git('config', 'user.name', 'Release Test'); git('config', 'user.email', 'release@example.invalid');
     git('config', 'commit.gpgsign', 'false'); git('config', 'tag.gpgsign', 'false');
-    writeFileSync(join(repo, 'package.json'), JSON.stringify({ name: '@sidhq/sid-sdk', version: '0.1.0' }));
+    writeFileSync(join(repo, 'package.json'), JSON.stringify({ name: '@sid-ai/sid-sdk', version: '0.1.0' }));
     git('add', '.'); git('commit', '-m', 'Initial source');
     git('remote', 'add', 'origin', remote); git('push', 'origin', 'main');
     const sha = git('rev-parse', 'HEAD'); env.GITHUB_SHA = sha;

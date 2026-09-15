@@ -1,5 +1,5 @@
 {
-  "name": "@sidhq/sid-sdk",
+  "name": "@sid-ai/sid-sdk",
   "version": "0.1.0",
   "description": "Stable document IDs, relevant snippets, and seen-text tracking for AI agents",
   "type": "module",

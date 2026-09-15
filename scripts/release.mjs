@@ -30,7 +30,7 @@ if (mode === "prepare") {
 } else {
   const { version, sidSourceCommit } = JSON.parse(readFileSync("package.json", "utf8"));
   if (sidSourceCommit !== sha || version !== selectVersion(metadata, records, sha)) throw new Error("Release version or source changed after preparation");
-  const tarball = resolve(`.artifacts/sidhq-sid-sdk-${version}.tgz`);
+  const tarball = resolve(`.artifacts/${PACKAGE.replace("@", "").replace("/", "-")}-${version}.tgz`);
   const reserved = records.find(record => record.name === `v${version}`);
   if (reserved && reserved.sha !== sha) throw new Error("Release tag belongs to another source SHA");
   if (!reserved) {

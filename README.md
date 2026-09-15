@@ -1,6 +1,6 @@
 # SID SDK for TypeScript
 
-`@sidhq/sid-sdk` turns search results into compact, model-facing document views.
+`@sid-ai/sid-sdk` turns search results into compact, model-facing document views.
 It assigns stable short IDs, selects relevant snippets, tracks character ranges
 already shown, masks repeated text, and renders SID's `<doc>` format.
 
@@ -11,11 +11,11 @@ no install scripts. Browser and shared-memory worker-thread caches are not suppo
 ## Installation and use
 
 ```sh
-npm install @sidhq/sid-sdk
+npm install @sid-ai/sid-sdk
 ```
 
 ```ts
-import { DocumentCache } from '@sidhq/sid-sdk';
+import { DocumentCache } from '@sid-ai/sid-sdk';
 
 const cache = new DocumentCache({ language: 'english' });
 cache.addDocument('database-id', {
@@ -30,7 +30,7 @@ console.log(view.renderXml());
 cache.updateSeen(view);
 ```
 
-CommonJS: `const { DocumentCache } = require('@sidhq/sid-sdk')`.
+CommonJS: `const { DocumentCache } = require('@sid-ai/sid-sdk')`.
 All SDK methods are synchronous, including automatic WASM initialization on first
 snippet selection. Both entry points share the same classes.
 
@@ -135,7 +135,7 @@ token-authorized `npm dist-tag` operation.
 
 ### One-time npm setup
 
-1. Ensure the publishing account can create public packages in the `sidhq` npm organization.
+1. Ensure the publishing account can create public packages in the `sid-ai` npm organization.
 2. Add a narrowly scoped, short-lived granular npm token as the repository/environment
    secret `NPM_TOKEN`, with creation/publish rights and any required 2FA bypass.
    Rerun the initial Release workflow to publish the fully tested `0.1.0` package.

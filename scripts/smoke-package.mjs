@@ -34,11 +34,11 @@ assert.match(cache.applySnippet('database-id', {snippetField: 'content', query: 
 const [fork] = cache.fork(1);
 assert.equal(fork.getDocument('database-id'), cache.getDocument('database-id'));
 `;
-  writeFileSync(join(directory, "smoke.cjs"), `const sdk = require('@sidhq/sid-sdk');\n${example}\n`);
-  writeFileSync(join(directory, "smoke.mjs"), `import * as sdk from '@sidhq/sid-sdk';\nimport {createRequire} from 'node:module';\nconst require = createRequire(import.meta.url);\n${example}\nassert.equal(sdk.DocumentCache, require('@sidhq/sid-sdk').DocumentCache);\n`);
+  writeFileSync(join(directory, "smoke.cjs"), `const sdk = require('@sid-ai/sid-sdk');\n${example}\n`);
+  writeFileSync(join(directory, "smoke.mjs"), `import * as sdk from '@sid-ai/sid-sdk';\nimport {createRequire} from 'node:module';\nconst require = createRequire(import.meta.url);\n${example}\nassert.equal(sdk.DocumentCache, require('@sid-ai/sid-sdk').DocumentCache);\n`);
   for (const file of ["smoke.cjs", "smoke.mjs"]) execFileSync(process.execPath, [file], { cwd: directory, stdio: "inherit" });
   const typescript = join(root, "node_modules/typescript/bin/tsc");
-  const consumer = `import { DocumentCache, type CharacterRange } from '@sidhq/sid-sdk';
+  const consumer = `import { DocumentCache, type CharacterRange } from '@sid-ai/sid-sdk';
 const cache = new DocumentCache<{content: string}>();
 cache.addDocument('d', {content: 'text'});
 const span: CharacterRange = cache.resolveCharRange('d', 'content', [0, 2]);
