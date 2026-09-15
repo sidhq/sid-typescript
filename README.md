@@ -4,9 +4,10 @@
 It assigns stable short IDs, selects relevant snippets, tracks character ranges
 already shown, masks repeated text, and renders SID's `<doc>` format.
 
-Node.js 22+ is supported through ESM and CommonJS. The package includes the Rust
-snippet engine compiled to WebAssembly; installation needs no compiler and runs
-no install scripts. Browser and shared-memory worker-thread caches are not supported.
+Node.js 22+ is supported through ESM and CommonJS. The snippet engine is already
+compiled and bundled in the npm package. Installation requires no compiler,
+additional runtime, or separate build step. Browser and shared-memory
+worker-thread caches are not supported.
 
 ## Installation and use
 
@@ -50,14 +51,14 @@ snippet selection. Both entry points share the same classes.
 - `IdStream({ alphabet?, length?, seed? })`: `mint()` returns an ID, `at(index)` does not consume it, and `next()` follows the iterator protocol. Exhaustion throws `IdSpaceExhausted`. Counters `space`, `minted`, and `remaining` are BigInts.
 
 Document records can contain structured-cloneable values. Returned documents are
-the shared stored objects, matching Python; avoid modifying them after recording
+the shared stored objects; avoid modifying them after recording
 seen ranges. Display fields default to all document keys, so keep private fields
 out of the record or pass an explicit list. The seen ledger is keyed by document
-ID, matching Python: use one content field per document when tracking seen text.
+ID: use one content field per document when tracking seen text.
 
 ## Character ranges and language support
 
-Ranges are half-open **Unicode code-point offsets**, matching Python, not UTF-16
+Ranges are half-open **Unicode code-point offsets**. These differ from the UTF-16
 indices used by JavaScript `String.slice`. For example, `😀a` has two SDK
 characters. Combining marks count separately. Rendered references and
 `doc_length` use the same coordinate system.
@@ -74,11 +75,7 @@ lowercase Unicode UAX #29 tokenization without removing stopwords. Named
 languages use Alyze's stopword lists; there is no stemming. A per-call `language`
 overrides the cache default. Stopword-only queries select the earliest window.
 
-## Python compatibility
-
-The reference is [`sidhq/sid-python` at `c25f929`](https://github.com/sidhq/sid-python/tree/c25f9299a90d17735473ca401ae45fa4b41e25d8).
-The Rust algorithm and Alyze 0.1.5 are retained. Tests include Python-generated
-snippet offsets and exact XML/Markdown fixtures, including every language.
+## Rendering
 
 XML preserves SID's model-facing format: escape `&`, `<`, and `>`; leave quotes
 unchanged; omit falsy attributes; write integers unquoted. This is the SID
@@ -89,67 +86,16 @@ integral numbers render as integers because JavaScript does not distinguish
 `1` from `1.0`. Use strings for custom metadata representations. Default field
 order follows JavaScript key ordering; pass `displayFields` for explicit order.
 
-Seeded ID streams are reproducible within this SDK but do not reproduce Python's
-random seed expansion. Fork sharing and collision-free permutation semantics are
-preserved. Invalid input throws `TypeError` or `RangeError`; document lookup
+Seeded ID streams are reproducible within this SDK. Forks share one collision-free
+ID stream. Invalid input throws `TypeError` or `RangeError`; document lookup
 failures throw `Error`.
 
-## Development
+## Contributing
 
-Install Node.js 22+ and Rust through rustup. The checked-in toolchain selects
-Rust 1.88.0 and the WASM target.
-
-```sh
-cargo install wasm-bindgen-cli --version 0.2.100 --locked
-npm ci
-npm run check
-```
-
-The ignored `sid-python/` checkout is only a development reference. To regenerate
-fixtures, check out the pinned revision, build its extension with the Python
-project's development instructions, then run:
-
-```sh
-sid-python/.venv/bin/python scripts/generate-python-fixtures.py
-```
-
-Normal builds and CI require no Python checkout. `npm run test:package` installs
-the tarball into a temporary directory with lifecycle scripts disabled, checks
-both module formats, and compiles TypeScript consumers.
-
-## Releases
-
-Every successful push to `main` publishes its head revision, including documentation
-changes. CI tests Node 22 and 24 on Linux, macOS, and Windows before publishing.
-Versions begin at `0.1.0` and automatically increment the highest published or
-reserved patch version. Versions change only in the release workspace; Git tags
-identify source revisions, whose package manifest retains the development version.
-
-The release queue serializes runs (up to GitHub's 100 pending-run limit). A `v*`
-tag reserves a version for a SHA before publication. Rerun a failed workflow to
-reuse that version and recover missing GitHub release metadata. Do not delete or
-move reservation tags. Network, authorization, and version conflicts fail loudly.
-An older delayed revision gets a `revision-<sha>` npm tag, so it cannot move
-`latest` backward. npm publishing selects the tag directly and needs no separate
-token-authorized `npm dist-tag` operation.
-
-### One-time npm setup
-
-1. Ensure the publishing account can create public packages in the `sid-ai` npm organization.
-2. Add a narrowly scoped, short-lived granular npm token as the repository/environment
-   secret `NPM_TOKEN`, with creation/publish rights and any required 2FA bypass.
-   Rerun the initial Release workflow to publish the fully tested `0.1.0` package.
-3. In the npm package settings, configure a GitHub trusted publisher: organization
-   `sidhq`, repository `sid-typescript`, workflow `release.yml`, environment `npm`.
-   Allow direct `npm publish`. Avoid required environment approvals if releases
-   should remain automatic.
-4. Remove the bootstrap secret and revoke the token. Subsequent runs authenticate
-   with GitHub OIDC and publish with provenance.
-
-See [npm trusted publishing](https://docs.npmjs.com/trusted-publishers/) and
-[GitHub concurrency](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/control-workflow-concurrency).
+See the [contributor guide](https://github.com/sidhq/sid-typescript/blob/main/CONTRIBUTING.md)
+for source builds, testing, and release maintenance.
 
 ## License
 
 MIT. See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
-for the vendored Python/Rust reference and bundled Rust dependency notices.
+for copyright and third-party dependency notices.
